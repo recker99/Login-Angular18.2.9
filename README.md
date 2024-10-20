@@ -1,27 +1,36 @@
-# Login
+# Login Application
+ 
+Este es un proyecto de aplicación de autenticación desarrollado con **Angular version 18.2.9.**, que permite a los usuarios registrarse, iniciar sesión y cerrar sesión utilizando **Firebase Authentication**. La aplicación incluye formularios de registro y login, y muestra el nombre del usuario en la página de inicio después de iniciar sesión correctamente.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
+## Características principales
 
-## Development server
+- **Registro de usuarios**: Los usuarios pueden registrarse proporcionando un nombre de usuario, correo electrónico y contraseña.
+- **Inicio de sesión**: Los usuarios registrados pueden iniciar sesión y acceder a la página de inicio, donde se muestra un mensaje personalizado con su nombre.
+- **Firebase Authentication**: El proyecto utiliza Firebase para gestionar la autenticación de usuarios.
+- **Redirección automática**: Después del registro o inicio de sesión, los usuarios son redirigidos a las páginas correspondientes.
+- **Logout**: Los usuarios pueden cerrar sesión y serán redirigidos al formulario de inicio de sesión.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Tecnologías utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular CLI**: Framework principal para desarrollar la aplicación.
+- **Firebase**: Plataforma utilizada para la autenticación y almacenamiento de usuarios.
+- **Bootstrap**: Para el diseño responsivo y estilizado de la interfaz.
+  
+![Register Page](./src/assets/img/register-2.jpg)
 
-## Build
+![Login Page](./src/assets/img/login-3.jpg)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Home Page](./src/assets/img/inicio-2.jpg)
 
-## Running unit tests
+![Firebase Page](./src/assets/img/firebase-1.jpg)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación y configuración
 
-## Running end-to-end tests
+### Requisitos previos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Asegúrate de tener **Node.js** instalado. Puedes descargarlo desde [nodejs.org](https://nodejs.org/).
+2. Instala el **Angular CLI** globalmente ejecutando el siguiente comando:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   npm install -g @angular/cli
